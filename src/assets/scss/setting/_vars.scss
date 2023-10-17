@@ -3,18 +3,20 @@
     --mainfont-nexon: "nexonLv2";
 
     --black: #000;
-    --black100: #000;
-    --black200: #000;
-    --black300: #000;
-    --black400: #000;
-    --black500: #000;
+    --black100: #1b1b1b;
+    --black200: #292929;
+    --black300: #313131;
+    --black400: #3b3b3b;
+    --black500: #4e4e4e;
+    --black600: #727272;
+    --black700: #9e9e9e;
 
     --white: #fff;
-    --white100: #fff;
-    --white200: #fff;
-    --white300: #fff;
-    --white400: #fff;
-    --white500: #fff;
+    --white100: #e7e7e7;
+    --white200: #cacaca;
+    --white300: #b8b8b8;
+    --white400: #828282;
+    --white500: #747474;
 
     // 폰트 셋팅
     font-family: var(--mainfont-nanum), var(--mainfont-nexon);
