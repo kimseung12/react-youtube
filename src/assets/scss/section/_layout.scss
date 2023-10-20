@@ -19,6 +19,18 @@
 }
 #footer {
     text-align: center;
-    background-color: #333;
-    padding: 20px 20px 20px 260px;
+    border-top: 1px solid var(--black700);
+    background-color: #fff;
+    padding: 10px 10px 10px 250px;
+
+    a {
+        color: var(--black300);
+        padding: 10px 20px;
+        display: inline-block;
+
+        &:hover {
+            @include underline;
+            text-decoration-color: var(--black300);
+        }
+    }
 }
