@@ -122,8 +122,10 @@
         border-top: 1px solid var(--black700);
         white-space: pre-line;
         padding-top: 40px;
+        padding-bottom: 40px;
     }
-    .comment {
+    .video__comments {
         border-top: 1px solid var(--black700);
+        line-height: 1.8;
     }
 }
